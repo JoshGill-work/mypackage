@@ -1,18 +1,18 @@
 Package: mypackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Makes creating reports at TfL easier
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Josh", "Gill",
+      email = "JoshGill1@tfl.gov.uk",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This package makes creating regular periodic reports in R more reproducable, easy to read and more concise.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/JoshGill-work/mypackage
 BugReports: https://github.com/JoshGill-work/mypackage/issues
+RoxygenNote: 7.3.3
