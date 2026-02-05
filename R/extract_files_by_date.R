@@ -24,7 +24,7 @@ extract_files_by_date <- function(partial_file_name,
 
   # Identify the files within the directory
   files <- list.files(path = directory,
-                      full.names = FALSE)
+                      full.names = TRUE)
 
   # Filter the files within the directory to return only those starting with the partial_file_name
   matched_files <- files[grepl(partial_file_name, files)] # grepl identifies the elements within files that contain the string partial_file_name and then returns those elements in a list
